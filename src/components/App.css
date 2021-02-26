@@ -66,11 +66,14 @@ body {
     font-size: 18px; 
     cursor: pointer;
     list-style: none;
+}
+
+li.slide-underline {
     padding-bottom:3px; /*the space for the gradient*/
     background: linear-gradient(#0B54FF,#0B54FF) center bottom; /*OR bottom right OR bottom left*/
     background-size: 0% 2px; /*width:0% height:2px*/
     background-repeat:no-repeat; /* Don't repeat !!*/
-    transition: all 0.45s;   
+    transition: all 0.45s;  
 }
 
 
@@ -101,6 +104,24 @@ body {
     height: 220px;
     text-align: center;
     margin: auto;
+}
+
+.wrapper > a {
+    opacity: 0;
+}
+
+.wrapper > a > svg {
+    margin-top: 5px;
+
+}
+
+.wrapper:hover > a {
+    opacity: 1;
+    color: white;
+}
+
+.wrapper:hover > a:hover {
+    color: #0B54FF;
 }
 
 .wrapper > h2 {
