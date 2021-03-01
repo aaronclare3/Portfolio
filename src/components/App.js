@@ -76,9 +76,11 @@ const App = () => {
             </ul>
           </div>
         </div>
-        <div className='Grid-container'>
-          {menu === "Projects" && <Projects />}
-        </div>
+        {menu === "Projects" && (
+          <div className='Grid-container'>
+            <Projects />
+          </div>
+        )}
         {menu === "About" && <About />}
         {menu === "Resume" && <Resume />}
       </div>
