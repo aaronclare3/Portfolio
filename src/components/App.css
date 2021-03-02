@@ -185,7 +185,7 @@ li.slide-underline {
 
 
 
-@media (max-width: 1420px) {
+@media (max-width: 1540px) {
     .Grid-container {
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
