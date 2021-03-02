@@ -6,10 +6,10 @@ const Projects = () => {
     <>
       <div className='project Project-One'>
         <div className='wrapper'>
-          <h2>Ecomm</h2>
-          <h5>Built with the MERN stack</h5>
+          <h2>Clare Accounting Group</h2>
+          <h5>HTML/CSS/jQuery/Vanilla JS</h5>
           <a
-            href='https://www.github.com/aaronclare3/ecomm-react-redux'
+            href='https://github.com/aaronclare3/aaronclare3.github.io'
             target='_blank'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
@@ -75,10 +75,10 @@ const Projects = () => {
       </div>
       <div className='project Project-Five'>
         <div className='wrapper'>
-          <h2>Clare Accounting Group</h2>
-          <h5>HTML/CSS/jQuery/Vanilla JS</h5>
+          <h2>Ecomm</h2>
+          <h5>Built with the MERN stack</h5>
           <a
-            href='https://github.com/aaronclare3/aaronclare3.github.io'
+            href='https://www.github.com/aaronclare3/ecomm-react-redux'
             target='_blank'>
             <svg
               xmlns='http://www.w3.org/2000/svg'

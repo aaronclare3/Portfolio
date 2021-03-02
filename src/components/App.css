@@ -114,7 +114,8 @@ li.slide-underline {
 
 
 .Project-One {
-    background: url('../images/Ecomm.png');
+    background: url('../images/ClareAccounting2.png');
+
     background-size:cover;
 }
 
@@ -144,8 +145,9 @@ li.slide-underline {
 }
 
 .Project-Five {
-    background: url('../images/ClareAccounting2.png');
+    background: url('../images/Ecomm.png');
     background-size: cover;
+
 }
 
 
@@ -170,6 +172,10 @@ li.slide-underline {
     font-size: 20px;    
 }
 
+
+
+
+
 @media (max-width: 1420px) {
     .Grid-container {
         grid-template-columns: repeat(4, 1fr);
@@ -177,7 +183,7 @@ li.slide-underline {
     }
 
     .project {
-        height: 300px;
+        height: 200px;
     }
 
     .Project-Two {
@@ -204,5 +210,76 @@ li.slide-underline {
         grid-column-end: 5;
 
     }
-
 }
+
+@media (max-width: 900px) {
+    .Navbar-menu-list > li {
+        margin-left: 40px;
+        font-size: 16px;
+    }
+    .Grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .Project-Two {
+        display: none;
+    }
+
+    .Project-One {
+        grid-row-start: 0;
+        grid-column-start: 0;
+        grid-column-start: 2;
+    }
+    .Project-Three {
+        grid-row-start: 0;
+    }
+    .Project-Four {
+        grid-row-start: 1;
+    }
+    .Project-Five {
+        grid-row-start: 1;
+    }
+}
+
+
+@media (max-width: 680px) {
+    .Navbar-menu-list > li {
+        margin-left: 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 560px) {
+    body {
+        background: white;
+    }
+
+    .Main {
+        height: 100%;
+        width: 100%;
+    }
+
+    .Grid-container {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0px;
+        width: 80%;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .Navbar-menu-list > li {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+}
+
+
+

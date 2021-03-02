@@ -135,38 +135,6 @@
     grid-column-start: 8;
 }
 
-
-@media (max-width: 1270px) {
-    .AboutMainILikeBody1, .AboutMainILikeBody2 {
-        font-size: 50px;
-    }
-}
-@media (max-width: 1120px) {
-    .AboutMainILikeHeader {
-        margin-bottom: 0px;
-    }
-}
-
-@media (max-width: 1005px) {
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
-        font-size: 20px;
-    }
-
-    .AboutMainIAmBody, .AboutMainILoveBody {
-        font-size: 15px;
-    }
-
-    .AboutMainILikeBody1, .AboutMainILikeBody2 {
-        font-size: 60px;
-    }
-}
-
-@media (max-width: 950px) {
-    .AboutMainILikeBody1, .AboutMainILikeBody2 {
-        font-size: 50px;
-    }
-}
-
 @media (max-width: 1310px) {
     .About {
         flex-direction: column;
@@ -178,17 +146,170 @@
         align-items: center;
     }
 
+    .About-LeftHeader {
+        margin-left: 10px;
+    }
+
     .About-LeftHeaderImage > img {
         width: 100px;
     }
 
     .About-LeftBottomInfo, .About-LeftBottomInfo > div {
-        margin: 10px 0;
+        margin: 10px 10px 10px 0;
     }
 
     .About-Main {
         width: 100%;
-        margin: 0px;
+        margin: 10px 0px;
         padding: 0px;
     }
+
+    .About-MainIAm, .About-MainILove, .About-MainILike {
+        margin: 10px;
+    }
+
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+        font-size: 17px;
+    }
+
+    .AboutMainIAmBody, .AboutMainILoveBody {
+        font-size: 13px;
+    }
+
+    .grid {
+        margin-bottom: 10px;
+    }
+
+    .AboutMainILikeBody1, .AboutMainILikeBody2 {
+        font-size: 40px;
+    }
 }
+
+@media (max-width: 1270px) {
+    .AboutMainILikeBody1, .AboutMainILikeBody2 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 1120px) {
+    .AboutMainILikeHeader {
+        margin-bottom: 0px;
+    }
+}
+@media (max-width: 1050px) {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+        font-size: 18px;
+    }
+
+    .AboutMainIAmBody, .AboutMainILoveBody {
+        font-size: 13px;
+    }
+
+    .AboutMainILikeBody1, .AboutMainILikeBody2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 950px) {
+    .AboutMainILikeBody1, .AboutMainILikeBody2 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 925px) {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+        font-size: 14px !important;
+    }
+
+    .AboutMainIAmBody, .AboutMainILoveBody {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+        font-size: 13px !important;
+    }
+
+    .AboutMainIAmBody, .AboutMainILoveBody {
+        font-size: 12px !important;
+    }
+}
+@media (max-width: 780px) {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+        font-size: 12px !important;
+    }
+
+    .AboutMainIAmBody, .AboutMainILoveBody {
+        font-size: 11px !important;
+    }
+
+    .AboutMainILikeBody1, .AboutMainILikeBody2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 680px) {
+    .AboutMainILikeBody1, .AboutMainILikeBody2 {
+        font-size: 35px !important;
+    }
+}
+
+@media (max-width: 610px) {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+        font-size: 11px !important;
+    }
+
+    .AboutMainIAmBody, .AboutMainILoveBody {
+        font-size: 10px !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .About-Main {
+        height: 90%;
+        margin-top: 20px;
+    }
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+        font-size: 14px !important;
+    }
+
+    .AboutMainIAmBody, .AboutMainILoveBody {
+        font-size: 13px !important;
+    }
+}
+
+@media (max-width: 430px) {
+    
+    .AboutMainILikeBody1, .AboutMainILikeBody2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .About-Left {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .About-LeftHeader {
+        margin-left: 0px;
+    }
+
+    .About-LeftBottomContact {
+        margin-top: 15px;
+    }
+    .About-LeftBottomInfo, .About-LeftBottomInfo > div {
+        margin: 5px 0px;
+    }
+}
+
+@media (max-width: 390px) {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+        font-size: 14px !important;
+    }
+
+    .AboutMainIAmBody, .AboutMainILoveBody {
+        font-size: 11px !important;
+    }
+}
+
