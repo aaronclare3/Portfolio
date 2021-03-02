@@ -5,13 +5,15 @@
     margin: 0 auto;
     height: 80%;
     display: flex;
+
 }
 
 .About-Main {
     width: 80%;
-    box-shadow: 0px 0px 5px grey;
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 7px;
+    box-shadow: 0px 0px 5px grey;
+    padding: 10px;
 }
 
 .About-Left {
@@ -23,18 +25,17 @@
     justify-content: space-between;
     border-radius: 7px;
     box-shadow: 0px 0px 5px grey;
-
 }
 
 .About-LeftHeaderImage {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     margin: 10px auto;
 }
 
 .About-LeftHeaderImage > img {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     border-radius: 50%;
     box-shadow: 0px 0px 10px grey;
 }
@@ -51,10 +52,21 @@
 
 .About-LeftBottomContact {
     margin-bottom: 5px;
+    font-size: 13px;
     opacity: .7;
 }
 
 
 .About-LeftBottomInfo > div {
     margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.About-MainIAm, .About-MainILove {
+    margin-bottom: 10px;
+}
+
+.AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+    font-size: 24px;
+    font-weight: bold;
 }
