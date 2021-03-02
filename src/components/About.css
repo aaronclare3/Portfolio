@@ -283,9 +283,15 @@
 }
 
 @media (max-width: 560px) {
+    .Main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
     .About-Main {
         height: fit-content;
-        margin-top: 20px;
+        /* margin-top: 20px; */
+        padding: 0px;
     }
     .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
         font-size: 14px !important;
@@ -294,17 +300,8 @@
     .AboutMainIAmBody, .AboutMainILoveBody {
         font-size: 13px !important;
     }
-    .AboutMainILikeBody1, .AboutMainILikeBody2 {
-        font-size: 25px !important;
-    }
 }
 
-@media (max-width: 430px) {
-    
-    .AboutMainILikeBody1, .AboutMainILikeBody2 {
-        font-size: 20px;
-    }
-}
 
 @media (max-width: 450px) {
     .About-Left {
@@ -325,7 +322,7 @@
     }
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
     .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
         font-size: 14px !important;
     }
@@ -333,5 +330,5 @@
     .AboutMainIAmBody, .AboutMainILoveBody {
         font-size: 11px !important;
     }
-}
+} */
 
