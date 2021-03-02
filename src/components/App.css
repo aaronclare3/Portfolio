@@ -22,12 +22,6 @@ body {
     background: white;
     height: 85%;
     width: 85%;
-    /* position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0; */
-    /* margin: auto; */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px grey;
@@ -115,7 +109,7 @@ li.slide-underline {
     color: #0B54FF;
 }
 
-.project > div > h2 {
+.project > div > h2, .project > div > h5 {
     text-align: center;
 }
 
