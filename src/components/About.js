@@ -1,6 +1,11 @@
 import React from "react";
 import "./About.css";
 import bioImg from "../images/github-profilepic.jpeg";
+import { DiReact, DiNodejs, DiMongodb, DiCss3 } from "react-icons/di";
+import { SiRedux } from "react-icons/si";
+import { BsBootstrap } from "react-icons/bs";
+import { AiFillHtml5 } from "react-icons/ai";
+import { GrGraphQl } from "react-icons/gr";
 
 const About = () => {
   return (
@@ -53,8 +58,33 @@ const About = () => {
             <div className='AboutMainILikeHeader'>
               Technologies I like using...
             </div>
-            <div className='AboutMainILikeBody'>
-              <i className='fab fa-react'></i>
+            <div className='AboutMainILikeBody1'>
+              <div className='grid1 grid'>
+                <DiReact className='icon1' style={{ color: "#61DBFB" }} />
+              </div>
+              <div className='grid2 grid'>
+                <DiNodejs className='icon1' />
+              </div>
+              <div className='grid3 grid'>
+                <DiMongodb className='icon1' style={{ color: "#13AA53" }} />
+              </div>
+              <div className='grid4 grid'>
+                <GrGraphQl className='icon1' style={{ color: "#E00298" }} />
+              </div>
+            </div>
+            <div className='AboutMainILikeBody2'>
+              <div className='grid5 grid'>
+                <SiRedux className='icon2' style={{ color: "#774ABD" }} />
+              </div>
+              <div className='grid6 grid'>
+                <BsBootstrap className='icon2' style={{ color: "#7953B2" }} />
+              </div>
+              <div className='grid7 grid'>
+                <DiCss3 className='icon2' style={{ color: "#274DE4" }} />
+              </div>
+              <div className='grid8 grid'>
+                <AiFillHtml5 className='icon2' style={{ color: "#DD4B26" }} />
+              </div>
             </div>
           </div>
         </div>
