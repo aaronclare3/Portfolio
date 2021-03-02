@@ -83,8 +83,6 @@ li.slide-underline {
 .wrapper {
     font-size: 0;
     height: 220px;
-    /* text-align: center; */
-    /* margin: auto; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,10 +106,6 @@ li.slide-underline {
     color: #0B54FF;
 }
 
-/* .wrapper > h2 {
-    padding-top: 70px;
-} */
-
 .project > div > h2 {
     text-align: center;
 }
@@ -128,14 +122,11 @@ li.slide-underline {
     text-align: center;
 }
 
-.Project-Two > div > div {
+.Project-Two > div > div > div {
     color: white;
-    font-size: 20px;    
+    font-size: 20px;  
+    text-align: center; 
 }
-
-/* .Project-Two > div > div > div {
-    padding-top: 30px;    
-} */
 
 
 .Project-Three {
