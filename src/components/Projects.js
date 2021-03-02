@@ -27,6 +27,7 @@ const Projects = () => {
       <div className='project Project-Two'>
         <div className='wrapper'>
           <div>
+            <div className='gitActivity'>Github Activity</div>
             <div>Always Improving</div>
             <img
               src='http://ghchart.rshah.org/aaronclare3'
