@@ -5,7 +5,7 @@ import About from "./About";
 import Resume from "./Resume";
 
 const App = () => {
-  const [menu, setMenu] = useState("Projects");
+  const [menu, setMenu] = useState("About");
   const changeMenu = (tab) => {
     tab === "Projects"
       ? setMenu("Projects")
@@ -15,8 +15,8 @@ const App = () => {
   };
 
   return (
-    <div className='App'>
-      <div className='Main'>
+    <div className='App row'>
+      <div className='Main centered'>
         <div className='Navbar'>
           <div className='Navbar-icon'>
             <a
@@ -47,15 +47,6 @@ const App = () => {
           <div className='Navbar-menu'>
             <ul className='Navbar-menu-list'>
               <li
-                onClick={() => changeMenu("Projects")}
-                className={menu === "Projects" ? "" : "slide-underline"}
-                style={{
-                  paddingBottom: "3px",
-                  borderBottom: menu === "Projects" ? "2px solid blue" : "",
-                }}>
-                Projects
-              </li>
-              <li
                 onClick={() => changeMenu("About")}
                 className={menu === "About" ? "" : "slide-underline"}
                 style={{
@@ -63,6 +54,15 @@ const App = () => {
                   borderBottom: menu === "About" ? "2px solid blue" : "",
                 }}>
                 About Me
+              </li>
+              <li
+                onClick={() => changeMenu("Projects")}
+                className={menu === "Projects" ? "" : "slide-underline"}
+                style={{
+                  paddingBottom: "3px",
+                  borderBottom: menu === "Projects" ? "2px solid blue" : "",
+                }}>
+                Projects
               </li>
               <li
                 onClick={() => changeMenu("Resume")}
