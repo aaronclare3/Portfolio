@@ -10,7 +10,8 @@ const Projects = () => {
           <h5>HTML/CSS/jQuery/Vanilla JS</h5>
           <a
             href='https://github.com/aaronclare3/aaronclare3.github.io'
-            target='_blank'>
+            target='_blank'
+            rel='noreferrer'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='28'
@@ -31,6 +32,7 @@ const Projects = () => {
               src='http://ghchart.rshah.org/aaronclare3'
               alt="Aaron's Github chart"
               target='_blank'
+              rel='noreferrer'
             />
           </div>
         </div>
@@ -41,7 +43,8 @@ const Projects = () => {
           <h5>React/Apollo/GraphQL</h5>
           <a
             href='https://www.github.com/aaronclare3/helpfulHumanChallenge'
-            target='_blank'>
+            target='_blank'
+            rel='noreferrer'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='28'
@@ -60,7 +63,8 @@ const Projects = () => {
           <h5>MERN Stack</h5>
           <a
             href='https://www.github.com/aaronclare3/issueTracker'
-            target='_blank'>
+            target='_blank'
+            rel='noreferrer'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='28'
@@ -79,7 +83,8 @@ const Projects = () => {
           <h5>Built with the MERN stack</h5>
           <a
             href='https://www.github.com/aaronclare3/ecomm-react-redux'
-            target='_blank'>
+            target='_blank'
+            rel='noreferrer'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               width='28'
