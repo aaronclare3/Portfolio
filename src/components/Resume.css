@@ -1,11 +1,10 @@
 .Resume {
-    height: 80%;
+    height: 100vh;
     margin: 0 auto;
     background-image: url('../images/resume.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 90%;
-    overflow: auto;
+    width: 100%;
 }
 
 .Resume-Wrapper {
