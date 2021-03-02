@@ -7,7 +7,7 @@
 
 body {
     /* background: #0B54FF; */
-    background: black;
+    /* background: black; */
 }
 
 .Main {
@@ -21,6 +21,7 @@ body {
     right: 0;
     margin: auto;
     border-radius: 10px;
+    box-shadow: 0px 0px 5px grey;
 }
 
 .Grid-container {
@@ -257,6 +258,7 @@ li.slide-underline {
     .Main {
         height: 100%;
         width: 100%;
+        box-shadow: none;
     }
 
     .Grid-container {
