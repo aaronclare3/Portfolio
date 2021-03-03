@@ -52,7 +52,7 @@ const About = () => {
               football and playing golf. I love dominating my multiple fantasy
               football leagues every year by out-researching everyone and
               digging into the analytics. I love learning new technologies, and
-              setting new goals for myself. I love travelling to new places, and
+              setting new goals for myself. I love traveling to new places, and
               experiencing new cultures. I love learning new things and meeting
               new people.
             </div>
