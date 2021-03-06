@@ -57,6 +57,28 @@ const About = () => {
               new people.
             </div>
           </div>
+          <div className='About-MainReadingHeader'>Current Reads...</div>
+          <div className='About-MainReadingBody'>
+            <div>
+              <a
+                href='https://enos.itcollege.ee/~jpoial/oop/naited/Clean%20Code.pdf'
+                target='_blank'
+                rel='noreferrer'>
+                Clean Code
+              </a>{" "}
+              by Robert C. Martin
+            </div>
+            <div>
+              <a
+                href='https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/up%20%26%20going/ch1.md'
+                target='_blank'
+                rel='noreferrer'>
+                You Don't Know JS
+              </a>{" "}
+              by Kyle Simpson
+            </div>
+          </div>
+
           <div className='About-MainILike'>
             <div className='AboutMainILikeHeader'>
               Technologies I like using...

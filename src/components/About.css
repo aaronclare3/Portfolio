@@ -65,12 +65,12 @@
     margin-bottom: 10px;
 }
 
-.AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+.AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader, .About-MainReadingHeader {
     font-size: 24px;
     font-weight: bold;
 }
 
-.AboutMainILikeHeader {
+.AboutMainILikeHeader, .About-MainReadingBody {
     margin-bottom: 20px;
 }
 
