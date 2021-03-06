@@ -61,7 +61,7 @@
     font-size: 14px;
 }
 
-.About-MainIAm, .About-MainILove {
+.About-MainIAm, .About-MainILove, .About-MainReading {
     margin-bottom: 10px;
 }
 
@@ -70,7 +70,7 @@
     font-weight: bold;
 }
 
-.AboutMainILikeHeader, .About-MainReadingBody {
+.AboutMainILikeHeader {
     margin-bottom: 20px;
 }
 
@@ -140,11 +140,11 @@
 }
 
 @media (min-width: 1540px) {
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader, .About-MainReadingHeader {
         font-size: 30px;
     }
 
-    .AboutMainIAmBody, .AboutMainILoveBody {
+    .AboutMainIAmBody, .AboutMainILoveBody, .About-MainReadingBody {
         font-size: 26px;
     }
 
@@ -183,15 +183,15 @@
         padding: 0px;
     }
 
-    .About-MainIAm, .About-MainILove, .About-MainILike {
+    .About-MainIAm, .About-MainILove, .About-MainILike, .About-MainReading {
         margin: 10px;
     }
 
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader, .About-MainReadingHeader {
         font-size: 17px;
     }
 
-    .AboutMainIAmBody, .AboutMainILoveBody {
+    .AboutMainIAmBody, .AboutMainILoveBody, .About-MainReadingBody {
         font-size: 13px;
     }
 
@@ -215,11 +215,11 @@
     }
 }
 @media (max-width: 1050px) {
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader, .About-MainReadingHeader {
         font-size: 18px;
     }
 
-    .AboutMainIAmBody, .AboutMainILoveBody {
+    .AboutMainIAmBody, .AboutMainILoveBody, .About-MainReadingBody {
         font-size: 13px;
     }
 
@@ -234,30 +234,30 @@
     }
 }
 @media (max-width: 925px) {
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader, .About-MainReadingHeader {
         font-size: 14px !important;
     }
 
-    .AboutMainIAmBody, .AboutMainILoveBody {
+    .AboutMainIAmBody, .AboutMainILoveBody, .About-MainReadingBody {
         font-size: 13px !important;
     }
 }
 
 @media (max-width: 850px) {
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader, .About-MainReadingHeader {
         font-size: 13px !important;
     }
 
-    .AboutMainIAmBody, .AboutMainILoveBody {
+    .AboutMainIAmBody, .AboutMainILoveBody, .About-MainReadingBody {
         font-size: 12px !important;
     }
 }
 @media (max-width: 780px) {
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader, .About-MainReadingHeader {
         font-size: 12px !important;
     }
 
-    .AboutMainIAmBody, .AboutMainILoveBody {
+    .AboutMainIAmBody, .AboutMainILoveBody, .About-MainReadingBody {
         font-size: 11px !important;
     }
 
@@ -273,11 +273,11 @@
 }
 
 @media (max-width: 610px) {
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader, .About-MainReadingHeader {
         font-size: 11px !important;
     }
 
-    .AboutMainIAmBody, .AboutMainILoveBody {
+    .AboutMainIAmBody, .AboutMainILoveBody, .About-MainReadingBody {
         font-size: 10px !important;
     }
 }
@@ -293,11 +293,11 @@
         /* margin-top: 20px; */
         padding: 0px;
     }
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
+    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader, .About-MainReadingHeader {
         font-size: 14px !important;
     }
 
-    .AboutMainIAmBody, .AboutMainILoveBody {
+    .AboutMainIAmBody, .AboutMainILoveBody, .About-MainReadingBody {
         font-size: 13px !important;
     }
 }
@@ -321,14 +321,3 @@
         margin: 5px 0px;
     }
 }
-
-/* @media (max-width: 390px) {
-    .AboutMainIAmHeader, .AboutMainILoveHeader, .AboutMainILikeHeader {
-        font-size: 14px !important;
-    }
-
-    .AboutMainIAmBody, .AboutMainILoveBody {
-        font-size: 11px !important;
-    }
-} */
-

@@ -57,8 +57,9 @@ const About = () => {
               new people.
             </div>
           </div>
-          <div className='About-MainReadingHeader'>Current Reads...</div>
-          <div className='About-MainReadingBody'>
+          <div className='About-MainReading'>
+            <div className='About-MainReadingHeader'>Current Reads...</div>
+            <div className='About-MainReadingBody'></div>
             <div>
               <a
                 href='https://enos.itcollege.ee/~jpoial/oop/naited/Clean%20Code.pdf'
