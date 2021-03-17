@@ -57,6 +57,7 @@ body {
     color: #0B54FF;
 }
 
+
 .Navbar-menu-list {
     list-style-type: none;
     display: flex;
@@ -107,6 +108,14 @@ li.slide-underline {
 
 .wrapper:hover > a:hover {
     color: #0B54FF;
+}
+
+.wrapper:hover > a.deploy:hover {
+    color: red;
+}
+
+.wrapper:hover > a.deploy {
+    font-size: 25px;
 }
 
 .project > div > h2, .project > div > h5 {
