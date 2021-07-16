@@ -45,7 +45,7 @@ const About = () => {
           <div className='About-MainILove'>
             <div className='AboutMainILoveHeader'>I love...</div>
             <div className='AboutMainILoveBody'>
-              my wife Josilyn, and 3 month old son Owen. I love my family,
+              my wife Josilyn, and 7 month old son Owen. I love my family,
               friends, and being outdoors. I love finally fixing that bug that
               you couldn't stop thinking about. I love finding a new VS Code
               keyboard shortcut. I love all sports, but especially watching
